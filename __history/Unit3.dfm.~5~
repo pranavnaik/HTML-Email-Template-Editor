@@ -1,0 +1,143 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  BorderStyle = bsSizeToolWin
+  Caption = 'Form3'
+  ClientHeight = 361
+  ClientWidth = 253
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  DesignSize = (
+    253
+    361)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = -40
+    Top = 83
+    Width = 305
+    Height = 17
+    Alignment = taCenter
+    Anchors = [akLeft, akTop, akRight]
+    AutoSize = False
+    Caption = 'Copyright '#169
+  end
+  object Label4: TLabel
+    Left = 77
+    Top = 106
+    Width = 43
+    Height = 13
+    Caption = 'Website:'
+  end
+  object Image1: TImage
+    Left = 40
+    Top = 8
+    Width = 177
+    Height = 55
+    AutoSize = True
+  end
+  object Label7: TLabel
+    Left = 40
+    Top = 44
+    Width = 186
+    Height = 19
+    Caption = 'Emailer Template Modifier'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHighlight
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 77
+    Top = 325
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Top = 125
+    Width = 233
+    Height = 77
+    Anchors = [akLeft, akTop, akRight]
+    Caption = 'Registration Detail'
+    TabOrder = 1
+    object RegisteredToLbl: TLabel
+      Left = 18
+      Top = 18
+      Width = 66
+      Height = 13
+      Caption = 'Unregistered:'
+    end
+    object LicenceTypeLbl: TLabel
+      Left = 18
+      Top = 38
+      Width = 63
+      Height = 13
+      Caption = 'LicenceType:'
+    end
+    object ExpiryLbl: TLabel
+      Left = 18
+      Top = 58
+      Width = 39
+      Height = 13
+      Caption = 'Expires:'
+    end
+    object Label1: TLabel
+      Left = 118
+      Top = 18
+      Width = 7
+      Height = 13
+      Caption = ' -'
+    end
+    object Label5: TLabel
+      Left = 118
+      Top = 37
+      Width = 46
+      Height = 13
+      Caption = 'Freeware'
+    end
+    object Label6: TLabel
+      Left = 118
+      Top = 56
+      Width = 7
+      Height = 13
+      Caption = ' -'
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 216
+    Width = 233
+    Height = 107
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Caption = 'Version Information'
+    TabOrder = 2
+    ExplicitHeight = 103
+    object Label3: TLabel
+      Left = 18
+      Top = 22
+      Width = 94
+      Height = 13
+      Caption = 'Application Version:'
+    end
+    object AgentVersionLbl: TLabel
+      Left = 118
+      Top = 22
+      Width = 26
+      Height = 13
+      Caption = '1.0.0'
+    end
+  end
+end

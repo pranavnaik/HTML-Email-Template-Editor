@@ -1,0 +1,107 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 337
+  ClientWidth = 298
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  DesignSize = (
+    298
+    337)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = -48
+    Top = 66
+    Width = 346
+    Height = 17
+    Alignment = taCenter
+    Anchors = [akLeft, akTop, akRight]
+    AutoSize = False
+    Caption = 'Copyright '#169
+    ExplicitWidth = 301
+  end
+  object Label4: TLabel
+    Left = 104
+    Top = 89
+    Width = 43
+    Height = 13
+    Caption = 'Website:'
+  end
+  object Image1: TImage
+    Left = 35
+    Top = 4
+    Width = 233
+    Height = 57
+    AutoSize = True
+  end
+  object Button1: TButton
+    Left = 114
+    Top = 305
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Top = 120
+    Width = 281
+    Height = 77
+    Anchors = [akLeft, akTop, akRight]
+    Caption = 'Registration Detail'
+    TabOrder = 1
+    object RegisteredToLbl: TLabel
+      Left = 18
+      Top = 18
+      Width = 62
+      Height = 13
+      Caption = 'Unregistered'
+    end
+    object LicenceTypeLbl: TLabel
+      Left = 18
+      Top = 38
+      Width = 59
+      Height = 13
+      Caption = 'LicenceType'
+    end
+    object ExpiryLbl: TLabel
+      Left = 18
+      Top = 58
+      Width = 35
+      Height = 13
+      Caption = 'Expires'
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 216
+    Width = 281
+    Height = 83
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Caption = 'Version Information'
+    TabOrder = 2
+    object Label3: TLabel
+      Left = 18
+      Top = 22
+      Width = 31
+      Height = 13
+      Caption = 'Client:'
+    end
+    object AgentVersionLbl: TLabel
+      Left = 106
+      Top = 22
+      Width = 75
+      Height = 13
+      Caption = 'ClientVersionLbl'
+    end
+  end
+end
